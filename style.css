@@ -1,0 +1,40 @@
+body {
+    background-size: cover;
+}
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+#start, #object_found, #status {
+    font-size: 18px;
+}
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    color: rgb(60, 60, 60);
+    width: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: white;
+    line-height: 3;
+    font-size: 15px;
+}
+canvas {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
+#note {
+    font-size: 15px;
+    color: black;
+}
+#object {
+    width: 30%;
+    border: 2px solid black;
+}
+#date {
+    float: right;
+    font-size: 14px;
+}
